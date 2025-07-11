@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextTextPassword2" type="id"/>
+    <item name="editTextTextPassword3" type="id"/>
+    <item name="editTextTextPassword4" type="id"/>
+    <item name="lastname" type="id"/>
+</resources>

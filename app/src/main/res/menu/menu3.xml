@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/class9"
+        android:title="Class-9th" />
+
+    <item
+        android:id="@+id/class10"
+        android:title="Class-10th" />
+
+    <item
+        android:id="@+id/class11"
+        android:title="Class-11th">
+        <menu>
+            <item
+                android:id="@+id/class11science"
+                android:title="Science" />
+            <item
+                android:id="@+id/class11commerce"
+                android:title="Commerce" />
+            <item
+                android:id="@+id/class11arts"
+                android:title="Arts" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/class12"
+        android:title="Class-12th">
+        <menu>
+            <item
+                android:id="@+id/class12science"
+                android:title="Science" />
+            <item
+                android:id="@+id/class12commerce"
+                android:title="Commerce" />
+            <item
+                android:id="@+id/class12arts"
+                android:title="Arts" />
+        </menu>
+    </item>
+
+</menu>

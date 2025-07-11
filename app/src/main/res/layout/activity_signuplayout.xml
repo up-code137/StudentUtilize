@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signuplayout"
+    android:background="@drawable/fee5eab30a698c169dc4fd5752359c2c">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:paddingBottom="40dp"
+        android:text="CREATE NEW ACCOUNT"
+        android:textColor="#212121"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstnamee"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/textView"
+        android:layout_margin="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/loginroundbtn"
+        android:elevation="40dp"
+        android:hint="First name"
+        android:inputType="textPersonName"
+        android:shadowDy="30"
+        android:textColorHint="#0D0101"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@id/firstnamee"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/loginroundbtn"
+        android:elevation="40dp"
+        android:shadowDy="30"
+        android:layout_toEndOf="@id/firstnamee"
+        android:hint="Last name(optional)"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#0D0101"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/email123"
+        android:background="@drawable/loginroundbtn"
+        android:elevation="40dp"
+        android:shadowDy="30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstnamee"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Enter your @email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#0D0101" />
+
+    <EditText
+        android:id="@+id/schoolid"
+        android:background="@drawable/loginroundbtn"
+        android:elevation="40dp"
+        android:shadowDy="30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email123"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Enter your school ID number"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#0D0101" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:background="@drawable/loginroundbtn"
+        android:elevation="40dp"
+        android:shadowDy="30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/schoolid"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Create a password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#0D0101" />
+
+    <EditText
+        android:id="@+id/confirmpass"
+        android:background="@drawable/loginroundbtn"
+        android:elevation="40dp"
+        android:shadowDy="25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password1"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#0D0101" />
+
+    <Button
+        android:id="@+id/signupp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmpass"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:elevation="40dp"
+        android:background="@drawable/roundbtn2"
+        android:minHeight="48dp"
+        android:text="SIGN UP"
+        android:textColor="#010528"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signupp"
+        android:layout_marginTop="8dp"
+        android:background="#72E1ED"
+        android:text="Already have an account? Login"
+        android:textColor="#474040"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

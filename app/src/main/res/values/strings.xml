@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LayoutsPractice</string>
+    <string name="assign_2">ASSIGN.2</string>
+    <string name="maths">Maths</string>
+    <string name="sst">SST</string>
+    <string name="click_for_pyq">Click for PYQ</string>
+    <string name="send">send</string>
+    <string name="note_we_are_here_with_you_ask_anything_anytime">(Note: we are here with you Ask anything-Anytime)</string>
+    <string name="mock_3">Mock.3</string>
+    <string name="syallabus">Syallabus</string>
+    <string name="enter_topic_question">enter topic/question</string>
+    <string name="class_10th">Class -10th</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="assign_1">ASSIGN.1</string>
+    <string name="mock_2">MOCK.2</string>
+</resources>

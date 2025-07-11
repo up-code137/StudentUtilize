@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/first"
+   android:icon="@drawable/iconuser"
+    android:title="Your profile"
+    />
+
+    <item android:id="@+id/first4"
+        android:icon="@drawable/outline_add_home_work_24"
+        android:title="join community"
+        />
+    <item android:id="@+id/first2"
+        android:icon="@drawable/_settings"
+        android:title="setting"
+        />
+    <item android:id="@+id/first3"
+        android:icon="@drawable/about"
+        android:title="Log out!"
+        />
+    <item android:id="@+id/first5"
+        android:icon="@drawable/outline_battery_android_share_24"
+        android:title="Share"
+        />
+
+
+
+
+</menu>
